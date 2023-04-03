@@ -1,0 +1,100 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav__center{
+  width:100%;
+  height: 4rem;
+  margin-inline:auto;
+  background: #dfdde6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__container{
+  display: flex;
+  margin: 0 2rem 0 0;
+  position: relative;
+  height: 3rem;
+}
+.nav__container svg{
+  font-size:3rem;
+}
+.amount__container{
+  position: absolute;
+  font-size: 10.5px;
+  top:-20px;
+  right:-4px;
+  padding:2px 4px;
+  background:#696283 ;
+  border-radius: 4rem;
+}
+.total__amount{
+  color:rgb(114, 195, 110);
+}
+.cart{
+  margin: 0 auto;
+  height: fit-content;
+  width:80%;
+  background: hsl(188, 83%, 88%);
+  color:black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart__item{
+  width:100%;
+  display:flex;
+  background: #fff;
+  border:2px solid transparent;
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+ img{
+  height: 4rem;
+  width:4rem;
+   margin-top: 1.8rem;
+}
+
+.cart__item-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price{
+  flex-direction: column;
+  align-items:center;
+  padding: 1rem;
+  
+}
+.remove__btn{
+  margin-bottom: 1rem;
+}
+.cart__amount{
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  width: fit-content;
+  background: hsl(188, 83%, 88%) ;
+  padding: 0.8rem;
+  cursor: pointer;
+}
